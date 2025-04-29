@@ -3,8 +3,12 @@ import React from 'react'
 import { Link } from 'react-router-dom';
 
 const Header = () => {
-  return (
+  return (<>
    <Link  className='header'   to={"/login"   }  >  Login    </Link>
+   <Link     to={"/signup"   }  >  Signup   </Link>
+   
+   </>
+
   )
 }
 

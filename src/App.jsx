@@ -7,6 +7,9 @@ import {
 } from 'react-router-dom';
 import Header from './components/Header';
 import Login from './pages/Login'; 
+import Signup from './pages/Signup';
+
+
 
 
 const App = () => {
@@ -32,7 +35,14 @@ const App = () => {
 
 <Route path='/login' element={<Login/>}  >
 
+
 </Route>
+
+
+
+
+
+<Route   path='/signup'     element={<Signup/> }        >       </Route>
 
 
 
